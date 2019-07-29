@@ -10,7 +10,6 @@
   transition: 0.6s;
   transform-style: preserve-3d;
   position: relative;
-  height: 240px;
 }
 
 .front,
@@ -20,7 +19,8 @@
   width: 100%;
   top: 0;
   left: 0;
-  height: 240px;
+  border: solid grey 1px;
+  border-radius: 5px
 }
 
 .front {
@@ -30,4 +30,12 @@
 
 .back {
   transform: rotateY(180deg)
+}
+
+.inner_box.ghost {
+  visibility: hidden;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: relative;
 }
