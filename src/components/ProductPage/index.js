@@ -14,11 +14,11 @@ class ProductPage extends React.Component {
   }
   render() {
     const PRODUCTS = [
-      { name: "this", image: "https://picsum.photos/240/160?random=1" },
-      { name: "that", image: "https://picsum.photos/240/160?random=2" },
-      { name: "already", image: "https://picsum.photos/240/160?random=3" },
-      { name: "exist", image: "https://picsum.photos/240/160?random=4" },
-      { name: "lol", image: "https://picsum.photos/240/160?random=5" }
+      { name: "this", image: "https://picsum.photos/240/120?random=1" },
+      { name: "that", image: "https://picsum.photos/240/120?random=2" },
+      { name: "already", image: "https://picsum.photos/240/120?random=3" },
+      { name: "exist", image: "https://picsum.photos/240/120?random=4" },
+      { name: "lol", image: "https://picsum.photos/240/120?random=5" }
     ];
     return (
       <div className="section">

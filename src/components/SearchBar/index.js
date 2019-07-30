@@ -13,7 +13,7 @@ class SearchBar extends React.Component {
     return (
       <div className="columns">
         <div className="column is-full field has-addons">
-          <div className="control">
+          <div className="control is-expanded">
             <input
               className="input"
               type="text"
